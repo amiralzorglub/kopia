@@ -25,7 +25,7 @@ module.exports = {
         if (isDev) {
             return {
                 "mac": path.join(__dirname, "..", "..", "dist", "kopia_darwin_amd64", "kopia"),
-                "win": path.join(__dirname, "..", "..", "dist", "kopia_windows_amd64", "kopia.exe"),
+                "win": path.join(__dirname, "..", "..", "dist", "kopia_windows_386", "kopia.exe"),
                 "linux": path.join(__dirname, "..", "..", "dist", "kopia_linux_amd64", "kopia"),
             }[osShortName]
         }

@@ -17,6 +17,8 @@ function getKopiaUIUnpackedDir() {
       return path.resolve("../dist/kopia-ui/linux-arm64-unpacked");
     case "win32/x64":
       return path.resolve("../dist/kopia-ui/win-unpacked");
+    case "win32/ia32":
+      return path.resolve("../dist/kopia-ui/win-ia32-unpacked");
     default:
       return null;
   }
